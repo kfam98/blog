@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+
+
+    <a class="btn btn-default" href="javascript:history.go(-1)"><span class="glyphicon glyphicon-arrow-left"></span></a>
+
+    <h1>New/Edit post</h1>
+
+
+
+
+    <form method="POST" class="post-form .input-block-level"> {% csrf_token %}
+        {{ form.as_p }}
+
+
+    <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+{% endblock %}
