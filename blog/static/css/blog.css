@@ -1,0 +1,14 @@
+.page-header h1, #title {
+  font-size: 72px; }
+
+a {
+  color: #111; }
+
+a:hover {
+  color: #CCCC00;
+  text-decoration: none; }
+
+input, textarea, #id_text, #id_title {
+  width: 100%; }
+
+/*# sourceMappingURL=blog.css.map */
